@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C45341791CC0B29D00C37462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45341781CC0B29D00C37462 /* AppDelegate.swift */; };
+		C453417B1CC0B29D00C37462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453417A1CC0B29D00C37462 /* ViewController.swift */; };
+		C453417E1CC0B29D00C37462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C453417C1CC0B29D00C37462 /* Main.storyboard */; };
+		C45341801CC0B29D00C37462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C453417F1CC0B29D00C37462 /* Assets.xcassets */; };
+		C45341831CC0B29D00C37462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45341811CC0B29D00C37462 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C45341751CC0B29C00C37462 /* PrimateSocial_Interaction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimateSocial_Interaction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45341781CC0B29D00C37462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C453417A1CC0B29D00C37462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C453417D1CC0B29D00C37462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C453417F1CC0B29D00C37462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C45341821CC0B29D00C37462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C45341841CC0B29D00C37462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C45341721CC0B29C00C37462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C453416C1CC0B29C00C37462 = {
+			isa = PBXGroup;
+			children = (
+				C45341771CC0B29D00C37462 /* PrimateSocial_Interaction */,
+				C45341761CC0B29C00C37462 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C45341761CC0B29C00C37462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C45341751CC0B29C00C37462 /* PrimateSocial_Interaction.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C45341771CC0B29D00C37462 /* PrimateSocial_Interaction */ = {
+			isa = PBXGroup;
+			children = (
+				C45341781CC0B29D00C37462 /* AppDelegate.swift */,
+				C453417A1CC0B29D00C37462 /* ViewController.swift */,
+				C453417C1CC0B29D00C37462 /* Main.storyboard */,
+				C453417F1CC0B29D00C37462 /* Assets.xcassets */,
+				C45341811CC0B29D00C37462 /* LaunchScreen.storyboard */,
+				C45341841CC0B29D00C37462 /* Info.plist */,
+			);
+			path = PrimateSocial_Interaction;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C45341741CC0B29C00C37462 /* PrimateSocial_Interaction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45341871CC0B29D00C37462 /* Build configuration list for PBXNativeTarget "PrimateSocial_Interaction" */;
+			buildPhases = (
+				C45341711CC0B29C00C37462 /* Sources */,
+				C45341721CC0B29C00C37462 /* Frameworks */,
+				C45341731CC0B29C00C37462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimateSocial_Interaction;
+			productName = PrimateSocial_Interaction;
+			productReference = C45341751CC0B29C00C37462 /* PrimateSocial_Interaction.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C453416D1CC0B29C00C37462 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Héctor Rábago";
+				TargetAttributes = {
+					C45341741CC0B29C00C37462 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5H7U5U6LQ4;
+					};
+				};
+			};
+			buildConfigurationList = C45341701CC0B29C00C37462 /* Build configuration list for PBXProject "PrimateSocial_Interaction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C453416C1CC0B29C00C37462;
+			productRefGroup = C45341761CC0B29C00C37462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C45341741CC0B29C00C37462 /* PrimateSocial_Interaction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C45341731CC0B29C00C37462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45341831CC0B29D00C37462 /* LaunchScreen.storyboard in Resources */,
+				C45341801CC0B29D00C37462 /* Assets.xcassets in Resources */,
+				C453417E1CC0B29D00C37462 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C45341711CC0B29C00C37462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C453417B1CC0B29D00C37462 /* ViewController.swift in Sources */,
+				C45341791CC0B29D00C37462 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C453417C1CC0B29D00C37462 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C453417D1CC0B29D00C37462 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C45341811CC0B29D00C37462 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45341821CC0B29D00C37462 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C45341851CC0B29D00C37462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C45341861CC0B29D00C37462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C45341881CC0B29D00C37462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrimateSocial_Interaction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HR.PrimateSocial-Interaction";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C45341891CC0B29D00C37462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrimateSocial_Interaction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HR.PrimateSocial-Interaction";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C45341701CC0B29C00C37462 /* Build configuration list for PBXProject "PrimateSocial_Interaction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45341851CC0B29D00C37462 /* Debug */,
+				C45341861CC0B29D00C37462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45341871CC0B29D00C37462 /* Build configuration list for PBXNativeTarget "PrimateSocial_Interaction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45341881CC0B29D00C37462 /* Debug */,
+				C45341891CC0B29D00C37462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C453416D1CC0B29C00C37462 /* Project object */;
+}
