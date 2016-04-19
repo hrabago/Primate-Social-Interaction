@@ -12,6 +12,7 @@
 		C453417E1CC0B29D00C37462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C453417C1CC0B29D00C37462 /* Main.storyboard */; };
 		C45341801CC0B29D00C37462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C453417F1CC0B29D00C37462 /* Assets.xcassets */; };
 		C45341831CC0B29D00C37462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45341811CC0B29D00C37462 /* LaunchScreen.storyboard */; };
+		C453418B1CC0BB1B00C37462 /* MatrixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453418A1CC0BB1B00C37462 /* MatrixViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C453417F1CC0B29D00C37462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C45341821CC0B29D00C37462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C45341841CC0B29D00C37462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C453418A1CC0BB1B00C37462 /* MatrixViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				C45341781CC0B29D00C37462 /* AppDelegate.swift */,
 				C453417A1CC0B29D00C37462 /* ViewController.swift */,
 				C453417C1CC0B29D00C37462 /* Main.storyboard */,
+				C453418A1CC0BB1B00C37462 /* MatrixViewController.swift */,
 				C453417F1CC0B29D00C37462 /* Assets.xcassets */,
 				C45341811CC0B29D00C37462 /* LaunchScreen.storyboard */,
 				C45341841CC0B29D00C37462 /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C453418B1CC0BB1B00C37462 /* MatrixViewController.swift in Sources */,
 				C453417B1CC0B29D00C37462 /* ViewController.swift in Sources */,
 				C45341791CC0B29D00C37462 /* AppDelegate.swift in Sources */,
 			);
